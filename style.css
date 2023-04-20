@@ -1,0 +1,200 @@
+@font-face {
+    font-family: "Norse-Bold";
+    src: url(Norse-Bold.otf);
+}
+
+:root {
+    font-family: 'Roboto', sans-serif;
+    color: #0e0e0e;
+}
+
+body {
+    margin: 0;
+    background-color: #0e0e0e;
+}
+
+img {
+    height: 100px;
+    width: auto;
+}
+
+h1 {
+    font-family: "Norse-Bold";
+    font-size: 72px;
+    display: block;
+    float: left;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    letter-spacing: .5px;
+    font-weight: 500;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+label, input {
+    display: block;
+}
+
+input {
+    font-family: inherit;
+    font-size: 100%;
+    border: solid 1px #E5E7EB;
+    border-radius: 3px;
+    height: 22px;
+}
+
+input:focus {
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    border: 1px solid rgba(81, 203, 238, 1);
+}
+
+input:invalid {
+    box-shadow: 0 0 5px rgb(255, 0, 0);
+    border: 1px solid rgb(255, 0, 0);
+}
+
+
+label {
+    text-transform: uppercase;
+    font-size: .7rem;
+    color: #4e4e4e
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.first-name, .email, .password {
+    float: left;
+}
+
+.last-name, .tel, .confirm-password {
+    float: left;
+    margin-left: 60px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    margin: 0px 370px;
+    background-color: #fff;
+}
+
+.image {
+    width: 730px;
+    background: url(images/site-image.jpg);
+    background-size: 127% 100%;
+    background-position: -60px 0px;
+    height: 100%;
+}
+
+.img-caption {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 83%;
+}
+
+.caption {
+    align-items: flex-end;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    top: 22%;
+    height: 120px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    background-color: #f9fafb;
+    height: 100vh;
+}
+
+
+.header, .footer {
+    flex: 1;
+    padding-left: 40px;
+    padding-right: 140px;
+
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-top: 50px;
+}
+
+.subtext {
+    padding-bottom: 48px;
+    padding-top: 28px;
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    flex: .8;
+    padding: 10px 140px 10px 40px;
+    justify-content: space-around;
+    box-shadow: 0px 3px 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    padding-top: 48px;
+}
+
+button {
+    background-color: #596D48;
+    font-size: .9rem;
+    font-weight: 600;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 40px;
+    box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    padding-top: 18px;
+    font-size: .9rem;
+    text-shadow: 1px 1px 1px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+#log-in {
+    color: #596D48;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+p.caption {
+    font-size: .8rem;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
